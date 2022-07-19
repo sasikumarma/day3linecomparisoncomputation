@@ -14,7 +14,11 @@ public class LineComparison1 {
         System.out.println("Two points are (x1,y1)(3,4) and (x2,y2)(5,2)");
         System.out.println("Another Two points are (a1,b1)(4,6) and (a2,b2)(8,3)");
         System.out.println("Length of the  line (3,4)(5,2) is " + dis);
-     System.out.println("Length of the second line (4,6)(8,3) is " + di);
+        System.out.println("Length of the second line (4,6)(8,3) is " + di);
+        Integer obj1 = new Integer((int) dis);
+        Integer obj2 = new Integer((int) di);
+        System.out.println("these lines are equal :" + obj1.equals(obj2));
+
 
     }
 }
