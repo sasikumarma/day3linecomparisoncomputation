@@ -18,6 +18,11 @@ public class LineComparison1 {
         Integer obj1 = new Integer((int) dis);
         Integer obj2 = new Integer((int) di);
         System.out.println("these lines are equal :" + obj1.equals(obj2));
+        if (+obj1.compareTo(obj2) > 0 ) {
+         System.out.println("Length of the first line is greater");
+        } else {
+         System.out.println("Length of the second line is greater");
+        }
 
 
     }
